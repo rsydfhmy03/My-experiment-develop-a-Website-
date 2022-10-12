@@ -39,3 +39,46 @@ body{
     left: 0;
     width: 100%;
 }
+.navigation ul li{
+    position: relative;
+    width: 200%;
+    list-style: none;
+}
+.navigation ul li:hover{
+    background: var(--white);
+}
+.navigation ul li:nth-child(1){
+    margin-bottom: 40px;
+    pointer-events: none;  
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+}
+.navigation ul li:hover a{
+    color: var(--blue);
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    font-size: 1.75em;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 50px;
+    text-align: start;
+    white-space: none;    
+}
