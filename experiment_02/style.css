@@ -139,5 +139,21 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-
+}
+.toggle{
+    position: relative;
+    /* top: 0; */
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.search{
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
 }
