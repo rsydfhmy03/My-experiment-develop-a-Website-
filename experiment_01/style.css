@@ -41,8 +41,12 @@ body{
 }
 .navigation ul li{
     position: relative;
-    width: 200%;
+    width: 100%;
+    
     list-style: none;
+    border-top-left-radius: 30px;
+    /* border-bottom-right-radius: 40px; */
+    border-bottom-left-radius :30px; ;
 }
 .navigation ul li:hover{
     background: var(--white);
@@ -66,7 +70,7 @@ body{
     position: relative;
     display: block;
     min-width: 60px;
-    height: 60px;
+    height: 40px;
     line-height: 60px;
     text-align: center;
 }
@@ -77,8 +81,34 @@ body{
     position: relative;
     display: block;
     padding: 0 10px;
-    height: 60px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: start;
     white-space: none;    
+}
+.navigation ul li:hover a::before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    width: 40px;
+    height: 40px;
+    /* background: #ff0; */
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 30px 30px 0 10px var(--white);
+    pointer-events: none;
+}
+.navigation ul li:hover a::after{
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -40px;
+    width: 40px;
+    height: 40px;
+    /* background: #ff0; */
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 30px -30px 0 10px var(--white);
+    pointer-events: none;
 }
