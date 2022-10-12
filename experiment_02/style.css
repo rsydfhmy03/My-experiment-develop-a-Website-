@@ -123,3 +123,9 @@ body{
 }
 
 /* main */
+.main
+{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 400px;
+}
