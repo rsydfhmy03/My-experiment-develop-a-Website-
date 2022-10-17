@@ -58,7 +58,7 @@
 }
 .cycle{
 	width: 400px;
-	left: 15%;
+	left: 20%;
 	bottom: 40px;
 	z-index: 2;
 	transform: translate(-50%);
@@ -66,4 +66,15 @@
 }
 .cycle img{
 	width: 60%;
+}
+.cycle2{
+    width: 400px;
+    right: -20%;
+    bottom: 40px;
+    z-index: 2;
+    transform: translate(-50%);
+    position: absolute;
+}
+.cycle2 img{
+    width: 60%;
 }
