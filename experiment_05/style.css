@@ -9,7 +9,8 @@ body{
 .center{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
+    right: 50%;
     transform: translate(-50px, -50px);
     width: 400px;
     background: white;
@@ -23,4 +24,9 @@ body{
 .center form{
     padding: 0 40px;
     box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
 }
