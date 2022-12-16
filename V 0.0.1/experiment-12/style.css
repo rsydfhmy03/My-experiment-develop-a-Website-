@@ -164,6 +164,9 @@ li {
 #sidebar .side-dropdown a:hover {
 	color: var(--blue);
 }
+#sidebar .side-menu li a.logout {
+	color: var(--red);
+}
 #sidebar .ads {
 	width: 100%;
 	padding: 20px;
@@ -315,6 +318,9 @@ nav .profile .profile-link {
 	opacity: 0;
 	pointer-events: none;
 	transition: all .3s ease;
+}
+nav .profile .profile-link li a.logout {
+	color: var(--red);
 }
 nav .profile .profile-link.show {
 	opacity: 1;
